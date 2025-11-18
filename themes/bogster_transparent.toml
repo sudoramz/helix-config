@@ -1,0 +1,4 @@
+inherits = "bogster"
+
+"ui.background" = { }
+"ui.statusline" = {}

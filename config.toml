@@ -1,0 +1,79 @@
+# theme="catppuccin_mocha_transparent"
+# theme="tokyo_night_custom"
+# theme="dark_plus"
+# theme="rose_pine_dawn_transparent"
+# theme="bogster_transparent"
+# theme = "boo_berry_transparent"
+# theme="rose_pine_dawn"
+# theme="emacs"
+theme= "base16_transparent"
+# theme="dark_plus_transparent"
+# theme = "solarized_light"
+# theme = "term16_dark"
+# theme = "peachpuff"
+# theme = "noctis_transparent"
+# theme = "horizon_dark_transparent"
+# theme = "kaolin-valley-dark"
+# theme = "peachpuff"
+# theme = "naysayer_transparent"
+# theme = "poimandres"
+# theme = "flatwhite"
+# theme = "ingrid"
+
+[editor]
+line-number = "relative"
+mouse = false
+shell = ["zsh", "-c"]
+auto-save = true
+auto-format = true
+gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
+# bufferline = "multiple"
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "warning" # show warnings and errors on the cursorline inline
+
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.indent-guides]
+render = false
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = false
+display-signature-help-docs = false
+auto-signature-help = false
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+
+[keys.normal]
+C-p = ["move_line_up", "scroll_up"]
+C-n = ["move_line_down", "scroll_down"]
+esc = ["collapse_selection", "keep_primary_selection"]
+C-z = "undo"
+C-y = [
+  ':sh rm -f /tmp/unique-file',
+  ':insert-output yazi --chooser-file=/tmp/unique-file',
+  ':insert-output echo "\x1b[?1049h\x1b[?2004h" > /dev/tty',
+  ':open %sh{cat /tmp/unique-file}',
+  ':redraw',
+]
+C-r = "redo"
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25 # increase value to reduce forced mid-word wrapping
+max-indent-retain = 40
+wrap-indicator = ""  # set wrap-indicator to "" to hide it
+

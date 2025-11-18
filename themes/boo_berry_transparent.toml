@@ -1,0 +1,4 @@
+inherits = "boo_berry"
+
+"ui.background" = { }
+"ui.statusline" = {}

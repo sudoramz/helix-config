@@ -1,0 +1,4 @@
+inherits = "rose_pine_dawn"
+
+"ui.background" = { bg = "bg_transparent" }
+"ui.statusline" = {}

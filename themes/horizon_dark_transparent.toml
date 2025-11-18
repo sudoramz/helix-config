@@ -1,0 +1,4 @@
+inherits = "horizon-dark"
+
+"ui.background" = {}
+"ui.statusline" = {}
