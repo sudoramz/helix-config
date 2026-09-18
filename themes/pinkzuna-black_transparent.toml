@@ -1,0 +1,11 @@
+inherits = "pinkzuna-black"
+
+"ui.background" = {}
+"ui.statusline" = { fg = "#9E9EB6" }
+"ui.statusline.inactive" = { fg = "#484848" }
+"ui.bufferline" = { fg = "#9E9EB6" }
+"ui.bufferline.background" = {}
+"ui.popup" = { fg = "#E0E0F0" }
+"ui.popup.info" = { fg = "#E0E0F0" }
+"ui.menu" = { fg = "#E0E0F0" }
+"ui.help" = { fg = "#9E9EB6" }

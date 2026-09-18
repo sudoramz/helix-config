@@ -1,0 +1,9 @@
+inherits = "solarized_light"
+"ui.background" = {}
+"ui.popup"        = { fg = "default" }
+"ui.popup.info"   = { fg = "default" }
+"ui.menu"         = { fg = "default" }
+"ui.menu.selected"= { fg = "default", modifiers = ["reversed"] }
+"ui.help"         = { fg = "default" }
+"ui.statusline" = { fg = "default" }
+"ui.statusline.inactive" = { fg = "default" }

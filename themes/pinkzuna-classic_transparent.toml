@@ -1,0 +1,11 @@
+inherits = "pinkzuna-classic"
+
+"ui.background" = {}
+"ui.statusline" = { fg = "#905572" }
+"ui.statusline.inactive" = { fg = "#C8A0B8" }
+"ui.bufferline" = { fg = "#905572" }
+"ui.bufferline.background" = {}
+"ui.popup" = { fg = "#2A1520" }
+"ui.popup.info" = { fg = "#2A1520" }
+"ui.menu" = { fg = "#2A1520" }
+"ui.help" = { fg = "#905572" }
